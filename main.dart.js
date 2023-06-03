@@ -39047,7 +39047,7 @@ return A.Y($async$o2,r)},
 rI(){var s=0,r=A.Z(t.H),q
 var $async$rI=A.a_(function(a,b){if(a===1)return A.W(b,r)
 while(true)switch(s){case 0:s=2
-return A.a2($.qQ().Jl("lib/assets/documents/settings.json"),$async$rI)
+return A.a2($.qQ().Jl("lib/assets/documents/eurosonic_settings.json"),$async$rI)
 case 2:q=b
 $.bI().b=$.zU().cd(0,q)
 return A.X(null,r)}})
