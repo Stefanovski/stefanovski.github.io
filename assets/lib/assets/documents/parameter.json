@@ -1,0 +1,666 @@
+{
+    "EurosonicEtikett" : {
+      "Produktname": "Eurosonic Ultraschall Generator",
+      "Produktid": "0123456789",
+      "Fertigungsauftrag": "0123456789",
+      "Seriennummer": "0123456789",
+      "Fertigungsdatum": "01.01.1970",
+      "Prüfer": "XXX"
+    },
+    "Einstellungen": [
+      "Sprache",
+      "LoginCode",
+      "Betriebsstunden"
+    ],
+    "Betriebsarten": [
+      "Externe Zeitvorgabe",
+      "Zeitschweissen",
+      "Energieschweissen",
+      "Pulsschall"
+    ],
+    "Sprachauswahl": [
+      "Deutsch",
+      "English"
+    ],
+    "Pulsschall": {
+      "Einschaltzeit": {
+        "id": "10",
+        "value": 7.9,
+        "unit": "s",
+        "type": "float",
+        "min": 0,
+        "max": 100
+      },
+      "Ausschaltzeit": {
+        "id": "11",
+        "value": 0.08,
+        "unit": "s",
+        "type": "float",
+        "min": 0,
+        "max": 100
+      },
+      "Amplitude": {
+        "id": "12",
+        "value": 100,
+        "unit": "%",
+        "type": "number",
+        "min": 50,
+        "max": 100,
+        "link": ["23", "31", "40"]
+      }
+    },
+    "Energieschweissen": {
+      "Energie": {
+        "id": "20",
+        "value": 200,
+        "unit": "Ws",
+        "type": "number",
+        "min": 0,
+        "max": 15000
+      },
+      "Minimale Schweisszeit": {
+        "id": "21",
+        "value": 0.5,
+        "unit": "s",
+        "type": "float",
+        "min": 0.05,
+        "max": "22"
+      },
+      "Maximale Schweisszeit": {
+        "id": "22",
+        "value": 1,
+        "unit": "s",
+        "type": "float",
+        "min": "21",
+        "max": 9.99
+      },
+      "Amplitude": {
+        "id": "23",
+        "value": 100,
+        "unit": "%",
+        "type": "number",
+        "min": 50,
+        "max": 100,
+        "link": ["12", "31", "40"]
+      }
+    },
+    "Zeitschweissen": {
+      "Schweisszeit": {
+        "id": "30",
+        "value": 0.5,
+        "unit": "s",
+        "type": "float",
+        "min": 0.05,
+        "max": 9.99
+      },
+      "Amplitude": {
+        "id": "31",
+        "value": 100,
+        "unit": "%",
+        "type": "number",
+        "min": 50,
+        "max": 100,
+        "link": ["12", "23", "40"]
+      }
+    },
+    "Externe Zeitvorgabe": {
+      "Amplitude": {
+        "id": "40",
+        "value": 100,
+        "unit": "%",
+        "type": "number",
+        "min": 50,
+        "max": 100,
+        "link": ["12", "23", "31"]
+      }
+    },
+    "Überwachung": {
+      "Überwachung P Min. Max.": {
+        "id": "41",
+        "value": 0,
+        "unit": [ "Nein", "Ja" ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Pmin": {
+        "id": "42",
+        "value": 0,
+        "type": "number",
+        "unit": "W",
+        "min": 0,
+        "max": "43"
+      },
+      "Pmax": {
+        "id": "43",
+        "value": 0,
+        "type": "number",
+        "unit": "W",
+        "min": "42",
+        "max": 99999
+      }
+    }, 
+    "Nachlauf": {
+      "Nachlauf": {
+        "id": "45",
+        "value": 0.00,
+        "unit": "s",
+        "type": "float",
+        "off":  0.00,
+        "min": 0.25,
+        "max": 1.00
+      }
+    }, 
+    "Lösepuls": {
+      "Lösepuls": {
+        "id": "47",
+        "value": 0.05,
+        "unit": "s",
+        "type": "float",
+        "min": 0.00,
+        "max": 1.00
+      }
+    },
+    "Einrichtung": {
+      "Freigabecode ändern": {
+        "id": "85",
+        "value": 0,
+        "unit": [ "Nein", "Ja" ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "LoginCode": {
+        "id": "61",
+        "value": 0,
+        "unit": {"fill": 4, "hidewith": 0},
+        "type": "number",
+        "min": 0,
+        "max": 9999
+      },
+      "AmplitudeFrei": {
+        "id": "100",
+        "value": 0,
+        "unit": [ "Nein", "Ja" ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      }
+    },
+    "Einstellung": {
+      "Generatorleistung": {
+        "id": "64",
+        "value": 1000,
+        "unit": "W",
+        "type": "number",
+        "min": 0,
+        "max": 99999
+      },
+      "Spannungsfaktor": {
+        "id": "71",
+        "value": 1.3,
+        "unit": "",
+        "type": "float",
+        "min": 0.01,
+        "max": 999.99
+      },
+      "Start durch": {
+        "id": "51",
+        "value": 0,
+        "unit": [
+          "Pegel",
+          "Impuls"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Leistungsanzeige": {
+        "id": "74",
+        "value": 0,
+        "unit": [
+          "Watt",
+          "%"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Amplitude Min": {
+        "id": "52",
+        "value": 1.8,
+        "unit": "V",
+        "type": "float",
+        "min": 0.01,
+        "max": "53"
+      },
+      "AmplitudeAnzeige Min": {
+        "id": "54",
+        "value": 50,
+        "unit": "%",
+        "type": "number",
+        "min": 0,
+        "max": 100
+      },
+      "Amplitude Max": {
+        "id": "53",
+        "value": 3.25,
+        "unit": "V",
+        "type": "float",
+        "min": "52",
+        "max": 10.00
+      },
+      "Freigabe Zeitschweissen": {
+        "id": "80",
+        "value": 1,
+        "unit": [
+          "Nein",
+          "Ja"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Freigabe Energieschweissen": {
+        "id": "81",
+        "value": 1,
+        "unit": [
+          "Nein",
+          "Ja"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Freigabe Pulsschall": {
+        "id": "82",
+        "value": 0,
+        "unit": [
+          "Nein",
+          "Ja"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Freigabe Lösepuls": {
+        "id": "88",
+        "value": 0,
+        "unit": [
+          "Nein",
+          "Ja"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Freigabe P min/max": {
+        "id": "83",
+        "value": 0,
+        "unit": [
+          "Nein",
+          "Ja"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Softwareversion": {
+        "id": "49",
+        "value": "01.36",
+        "unit": "",
+        "type": "string",
+        "min": 0,
+        "max": 0
+      },
+      "Seriennummer": {
+        "id": "50",
+        "value": 11000,
+        "unit": { "fill": 5 },
+        "type": "number",
+        "min": 0,
+        "max": 99999
+      },
+       "Referenzspannung Analog": {
+        "id": "75",
+        "value": 5,
+        "unit": "V",
+        "type": "float",
+        "min": 4.75,
+        "max": 5.24
+      },
+      "Sprache": {
+        "id": "60",
+        "value": 0,
+        "unit": [
+          "Deutsch",
+          "English"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      }
+    },
+    "Display": {
+      "Display ändern": {
+        "id": "89",
+        "value": 0,
+        "unit": [ "Nein", "Ja" ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      },
+      "Energie Zeile 1": {
+        "id": "76",
+        "value": 0,
+        "unit": [ "Energie", "Frequenz", "Zeit", "Leistung" ],
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "overflow": true
+      },
+      "Energie Zeile 2": {
+        "id": "77",
+        "value": 1,
+        "unit": [ "Energie", "Frequenz", "Zeit", "Leistung" ],
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "overflow": true
+      },
+      "Zeit Zeile 1": {
+        "id": "78",
+        "value": 3,
+        "unit": [ "Energie", "Frequenz", "Zeit", "Leistung" ],
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "overflow": true
+      },
+      "Zeit Zeile 2": {
+        "id": "79",
+        "value": 1,
+        "unit": [ "Energie", "Frequenz", "Zeit", "Leistung" ],
+        "type": "number",
+        "min": 0,
+        "max": 3,
+        "overflow": true
+      }
+    },
+    "Löschen": {
+      "Betriebsstunden löschen": {
+        "id": "84",
+        "value": 4,
+        "unit": [ "Nein", "Ja" ],
+        "type": "number",
+        "min": 0,
+        "max": 1,
+        "overflow": true
+      }
+    },
+    "Backend": {
+      "AmplitudeAnzeigeMax": {
+        "id": "55",
+        "value": 100,
+        "unit": "%",
+        "type": "number",
+        "min": 0,
+        "max": 100
+      },
+      "Betriebsstunden": {
+        "id": "62",
+        "value": 0,
+        "unit": "h",
+        "type": "number",
+        "min": 0,
+        "max": 999999
+      },
+      "Betriebsart": {
+        "id": "63",
+        "value": 0,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 3
+      },
+      "Startfrequenz": {
+        "id": "65",
+        "value": 20400,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 99999
+      },
+      "Endfrequenz": {
+        "id": "66",
+        "value": 20200,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 99999
+      },
+      "Kp": {
+        "id": "67",
+        "value": 6,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 1000
+      },
+      "Ki": {
+        "id": "68",
+        "value": 0,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 99999
+      },
+      "Kd": {
+        "id": "69",
+        "value": 0,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 99999
+      },
+      "Stromfaktor": {
+        "id": "70",
+        "value": 1.0,
+        "unit": "",
+        "type": "float",
+        "min": 0.1,
+        "max": 10.0
+      },
+      "Maximalstrom": {
+        "id": "72",
+        "value": 2000,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 9999
+      },
+      "VerstaerkungAout": {
+        "id": "73",
+        "value": 2.0,
+        "unit": "",
+        "type": "float",
+        "min": 0.01,
+        "max": 999.99
+      },
+      "UserInterface": {
+        "id": "86",
+        "value": 0,
+        "unit": "",
+        "type": "number",
+        "min": 0,
+        "max": 10
+      },
+      "FanAutomatic": {
+        "id": "87",
+        "value": 0,
+        "unit": ["Nein", "Ja"],
+        "type": "number",
+        "min": 0,
+        "max": 1
+      },
+      "Wobbel": {
+        "id": "90",
+        "value": 0,
+        "unit": [
+          "Nein",
+          "Ja"
+        ],
+        "type": "number",
+        "min": 0,
+        "max": 1
+      }
+    },
+    "Sprache": {
+      "Deutsch": {
+        "Einstellungen:": "Einstellungen:",
+        "Sprache": "Sprache",
+        "Betriebsart wählen:": "Betriebsart wählen:",
+        "Anmeldung:": "Freigabe Code:",
+        "Code:": "Code eingeben:",
+        "Leistung:": "Leistung:",
+        "Strom:": "Strom:",
+        "Frequenz:": "Frequenz:",
+        "Pulsschall": "Pulsschall",
+        "Energieschweissen": "Energieschweissen",
+        "Zeitschweissen": "Zeitschweissen",
+        "Externe Zeitvorgabe": "Externe Zeit.",
+        "LoginCode": "Freigabe Nummer",
+        "AmplitudeFrei": "Amplitude Freigabe",
+        "Ja": "Ja",
+        "Nein": "Nein",
+        "Einschaltzeit": "Einschaltzeit",
+        "Ausschaltzeit": "Ausschaltzeit",
+        "Amplitude": "Amplitude",
+        "Freigabecode ändern": "Code ändern",
+        "Überwachung P Min. Max.": "Überwachung P",
+        "Minimale Schweisszeit": "Minimale Schweisszeit",
+        "Maximale Schweisszeit": "Maximale Schweisszeit",
+        "Schweisszeit": "Schweisszeit",
+        "Betriebsstunden": "Betriebsstunden",
+        "Energie:": "Energie:",
+        "Energie": "Energie",
+        "Zeit:": "Zeit:",
+        "Spannung:": "Spannung:",
+        "Fehler:": "Fehler:",
+        "Nachlauf aktivieren": "Nachlauf aktivieren",
+        "Nachlauf": "Nachlaufzeit",
+        "Lösepuls": "Lösepuls",
+        "Lösepuls aktivieren": "Lösepuls aktivieren",
+        "Pmin": "Minimale Leistung",
+        "Pmax": "Maximale Leistung",
+        "Einstellung": "Hersteller Menü",
+        "Einrichtung": "Einrichter Menü",
+        "Seriennummer": "Seriennummer",
+        "Profil": "Profil",
+        "Betriebsart": "Betriebsart",
+        "Startfrequenz": "Startfrequenz",
+        "Endfrequenz": "Endfrequenz",
+        "Stromfaktor": "Stromfaktor",
+        "Spannungsfaktor": "Leistungsfaktor",
+        "Maximalstrom": "Maximalstrom",
+        "VerstaerkungAout": "VerstaerkungAout",
+        "Einrichter": "",
+        "Hersteller": "Hersteller",
+        "Angemeldet": "Angemeldet",
+        "Abgemeldet": "Bediener verriegelt",
+        "Generatorleistung": "Generatorleistung",
+        "++++ FEHLER ++++": "++++ FEHLER ++++",
+        "Error_0": "Min. Zeit unterschritten",
+        "Error_1": "Max. Zeit überschritten",
+        "Error_2": "Überlast",
+        "Error_3": "Temperaturüberwachung",
+        "Error_4": "Amplitudensicherung",
+        "Error_5": "Leistungsfenster",
+        "Error_6": "Endstufe",
+        "Error_7": "Unbekannter Fehler",
+        "Error_8": "Netzteil Reset Fehler",
+        "Error_9": "Leistungsf. unterschritten",
+        "Error_10": "Leistungs. überschritten",
+        "Error_11": "Kurzschluss"
+      },
+      "English": {
+        "Einstellungen:": "Settings:",
+        "Sprache": "Language",
+        "Betriebsart wählen:": "Operation Mode:",
+        "Anmeldung:": "Release:",
+        "Code:": "Enter Code:",
+        "Leistung:": "Power:",
+        "Strom:": "Current:",
+        "Frequenz:": "Frequency:",
+        "Pulsschall": "Pulsed Sonic",
+        "Energieschweissen": "Energy Welding",
+        "Zeitschweissen": "Time Welding",
+        "Externe Zeitvorgabe": "External Time Mode",
+        "LoginCode": "Login Code",
+        "AmplitudeFrei": "Allow Amplitude Change",
+        "Ja": "Yes",
+        "Nein": "No",
+        "Einschaltzeit": "Turn On Time",
+        "Ausschaltzeit": "Turn Off Time",
+        "Amplitude": "Amplitude",
+        "Freigabecode ändern": "Change Code",
+        "Überwachung P Min. Max.": "Supervision P Min. Max.",
+        "Minimale Schweisszeit": "Minimum Welding Time",
+        "Maximale Schweisszeit": "Maximum Welding Time",
+        "Schweisszeit": "Welding Time",
+        "Betriebsstunden": "Operating Hours",
+        "Energie:": "Energy:",
+        "Energie": "Energy",
+        "Zeit:": "Time:",
+        "Spannung:": "Voltage:",
+        "Fehler:": "Error:",
+        "Nachlauf": "Postwelding Time",
+        "Nachlauf aktivieren": "Activate Postwelding Time",
+        "Lösepuls": "Detach Pulse",
+        "Lösepuls aktivieren": "Activate Detach Pulse",
+        "Pmin": "Minimum Power",
+        "Pmax": "Maximum Power",
+        "Einstellung": "Manufacturer",
+        "Einrichtung": "Setup Menu",
+        "Seriennummer": "Serial Number",
+        "Profil": "Profile",
+        "Betriebsart": "Operating Mode",
+        "Startfrequenz": "Starting Frequency",
+        "Endfrequenz": "End Frequency",
+        "Stromfaktor": "Current Factor",
+        "Spannungsfaktor": "Voltage Factor",
+        "Maximalstrom": "Maximum Current",
+        "VerstaerkungAout": "Amplification Aout",
+        "Einrichter": "",
+        "Hersteller": "Manufacturer",
+        "Angemeldet": "Logged in",
+        "Abgemeldet": "Operator Locked",
+        "Generatorleistung": "Generator Power",
+        "++++ FEHLER ++++": "++++ ERROR ++++",
+        "Error_0": "T-min => Minimum Time Underrun",
+        "Error_1": "T-max => Maximum Time Exceeded",
+        "Error_2": "Overload",
+        "Error_3": "Temperature Monitoring",
+        "Error_4": "Amplitude Protection",
+        "Error_5": "Power Range",
+        "Error_6": "Power Amplifier",
+        "Error_7": "Unknown Error",
+        "Error_8": "Power Supply Reset Error",
+        "Error_9": "P-min => Power Range Undershot",
+        "Error_10": "P-max => Power Range Overshot",
+        "Error_11": "Short circuit"
+      }
+    }
+  }
