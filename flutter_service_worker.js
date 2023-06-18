@@ -9,9 +9,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "82b17a81114bd0d73ab42aecc46eaa2a
 "assets/fonts/MaterialIcons-Regular.otf": "9cf87bfeedb76fd9f7d4692b6814f7a5",
 "assets/lib/assets/documents/lang_de.json": "9dd62bd39a68124e908cbd0b20cf7385",
 "assets/lib/assets/documents/login.json": "0e0270c9c917b0576b19db808f099c1b",
+<<<<<<< HEAD
 "assets/lib/assets/documents/parameter.json": "44921840def0b335da9ab7478087f06d",
 "assets/lib/assets/documents/settings.json": "a03172e92e3b4af1c860024c9c3798b9",
 "assets/NOTICES": "7e1c5b5d7efa63988d13ff2d71ab3f7f",
+=======
+"assets/lib/assets/documents/settings.json": "68ef61b406150bf9563476e767fd3ecc",
+"assets/NOTICES": "070d34d584cceabd14b59a8081daf21a",
+>>>>>>> 7fbd109f10c4d42d116fcd06282b00d3e6d90036
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
 "assets/packages/fluent_ui/assets/AcrylicNoise.png": "81f27726c45346351eca125bd062e9a7",
 "assets/packages/fluent_ui/fonts/FluentIcons.ttf": "69087f3d260150793c1b9649e711f639",
@@ -32,9 +37,15 @@ const RESOURCES = {"assets/AssetManifest.bin": "82b17a81114bd0d73ab42aecc46eaa2a
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
+<<<<<<< HEAD
 "index.html": "660b8c70a69b83bd275886b4915e59a4",
 "/": "660b8c70a69b83bd275886b4915e59a4",
 "main.dart.js": "3d3d79aebeea19c96a60fed9d4b5dcb4",
+=======
+"index.html": "c4155a1fa7f6d7bc09a60e0ced5b0732",
+"/": "c4155a1fa7f6d7bc09a60e0ced5b0732",
+"main.dart.js": "1e0da80a161828b956ff609a5cc3cc80",
+>>>>>>> 7fbd109f10c4d42d116fcd06282b00d3e6d90036
 "manifest.json": "e1e08fcdab7fa31c623f6bc786f296bd",
 "version.json": "dffac3c9133b025a0973c836ecf5f77f"};
 // The application shell files that are downloaded before a service worker can

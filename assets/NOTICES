@@ -4773,6 +4773,7 @@ crclib
    limitations under the License.
 
 --------------------------------------------------------------------------------
+<<<<<<< HEAD
 csslib
 
 Copyright 2013, the Dart project authors. 
@@ -4804,6 +4805,8 @@ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 --------------------------------------------------------------------------------
+=======
+>>>>>>> 7fbd109f10c4d42d116fcd06282b00d3e6d90036
 cupertino_icons
 
 The MIT License (MIT)
@@ -33781,6 +33784,7 @@ ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 --------------------------------------------------------------------------------
+<<<<<<< HEAD
 universal_html
 
                                  Apache License
@@ -34234,6 +34238,8 @@ universal_io
 
    END OF TERMS AND CONDITIONS
 --------------------------------------------------------------------------------
+=======
+>>>>>>> 7fbd109f10c4d42d116fcd06282b00d3e6d90036
 uuid
 
 Copyright (c) 2021 Yulian Kuncheff
