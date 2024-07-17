@@ -1,0 +1,208 @@
+{
+  "list": [
+    {
+      "name": "ES GS5000/20",
+      "productnumber": "123456",
+      "imagelink": "",
+      "description": "",
+      "creation": {
+        "tooldebug": "C:/Temp/AzureRepositories/ESTM_V30_COM/00_trunk/CreateDebug.bat",
+        "toolrelease": "C:/Temp/AzureRepositories/ESTM_V30_COM/00_trunk/CreateRelease.bat",
+        "arguments": "28TE_05.00_STD 28TE"
+      },
+      "programming": {
+        "controller": [
+          {
+            "family": "STM32",
+            "type": "STM32F407",
+            "id": "0x413",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESTM_V30_COM.bin",
+                "address": "0x08000000",
+                "Hash": ""
+              },
+              {
+                "version": "28TE_05.00_STD",
+                "name": "COMParameter.bin",
+                "address": "0x080C0000",
+                "Hash": ""
+              },
+              {
+                "version": "28TE_05.00_STD",
+                "name": "COMParameter.bin",
+                "address": "0x080E0000",
+                "Hash": ""
+              }
+            ]
+          },
+          {
+            "family": "STM32",
+            "type": "STM32F103",
+            "id": "0x414",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESTM_V30_LOOP.bin",
+                "address": "0x08000000",
+                "Hash": ""
+              }
+            ]
+          },
+          {
+            "family": "PIC16",
+            "type": "PIC16F18313",
+            "id": "16F18313",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESPIC_V10.production.hex",
+                "address": "0x00000000",
+                "Hash": ""
+              }
+            ]
+          }
+        ]
+      },
+      "testing": []
+    },
+    {
+      "name": "ES GS2000/20",
+      "productnumber": "56789",
+      "imagelink": "",
+      "description": "",
+      "creation": {
+        "tooldebug": "C:/Temp/AzureRepositories/ESTM_V30_COM/00_trunk/CreateDebug.bat",
+        "toolrelease": "C:/Temp/AzureRepositories/ESTM_V30_COM/00_trunk/CreateRelease.bat",
+        "arguments": "28TE_05.00_STD 28TE"
+      },
+      "programming": {
+        "controller": [
+          {
+            "family": "STM32",
+            "type": "STM32F407",
+            "id": "0x413",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESTM_V30_COM.bin",
+                "address": "0x08000000",
+                "Hash": ""
+              },
+              {
+                "version": "28TE_05.00_STD",
+                "name": "COMParameter.bin",
+                "address": "0x080C0000",
+                "Hash": ""
+              },
+              {
+                "version": "28TE_05.00_STD",
+                "name": "COMParameter.bin",
+                "address": "0x080E0000",
+                "Hash": ""
+              }
+            ]
+          },
+          {
+            "family": "STM32",
+            "type": "STM32F103",
+            "id": "0x414",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESTM_V30_LOOP.bin",
+                "address": "0x08000000",
+                "Hash": ""
+              }
+            ]
+          },
+          {
+            "family": "PIC16",
+            "type": "PIC16F18313",
+            "id": "16F18313",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESPIC_V10.production.hex",
+                "address": "0x00000000",
+                "Hash": ""
+              }
+            ]
+          }
+        ]
+      },
+      "testing": [],
+      "burnin": []
+    },
+    {
+      "name": "ES GS5000/20 SPEZIAL XYZ",
+      "productnumber": "6575757567",
+      "imagelink": "",
+      "description": "",
+      "creation": {
+        "tooldebug": "C:/Temp/AzureRepositories/ESTM_V30_COM/00_trunk/CreateDebug.bat",
+        "toolrelease": "C:/Temp/AzureRepositories/ESTM_V30_COM/00_trunk/CreateRelease.bat",
+        "arguments": "28TE_05.00_STD 28TE"
+      },
+      "programming": {
+        "controller": [
+          {
+            "family": "STM32",
+            "type": "STM32F407",
+            "id": "0x413",
+            "firmware": [
+              {
+                "version": "28TE_05.01_SPEZ",
+                "name": "ESTM_V30_COM.bin",
+                "address": "0x08000000",
+                "Hash": ""
+              },
+              {
+                "version": "28TE_05.00_STD",
+                "name": "COMParameter.bin",
+                "address": "0x080C0000",
+                "Hash": ""
+              },
+              {
+                "version": "28TE_05.00_STD",
+                "name": "COMParameter.bin",
+                "address": "0x080E0000",
+                "Hash": ""
+              }
+            ]
+          },
+          {
+            "family": "STM32",
+            "type": "STM32F103",
+            "id": "0x414",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESTM_V30_LOOP.bin",
+                "address": "0x08000000",
+                "Hash": ""
+              }
+            ]
+          },
+          {
+            "family": "PIC16",
+            "type": "PIC16F18313",
+            "id": "16F18313",
+            "firmware": [
+              {
+                "version": "28TE_05.00_STD",
+                "name": "ESPIC_V10.production.hex",
+                "address": "0x00000000",
+                "Hash": ""
+              }
+            ]
+          }
+        ]
+      },
+      "testing": [
+        
+      ]
+    }
+  ]
+}

@@ -1,12 +1,80 @@
 {
   "app": {
     "name": "Eurosonic TestLab",
-    "version": "0.0.1"
+    "version": "0.1.1",
+    "debug": true,
+    "autorun": true,
+    "ip_local": "127.0.0.1",
+    "ip_remote": "127.0.0.1",
+    "ip_server": "192.168.200.1",
+    "ip_printer": "10.1.100.212",
+    "ip_couchdb": "http://85.214.133.206:5984",
+    "authorization": "Basic YWRtaW46WyNhZG1pbiNDaVRBeHVqMF0=",
+    "user": {},
+    "users": [
+      {
+        "username": "Administrator",
+        "password": "adminpass",
+        "permissions": [
+          "Administration"
+        ]
+      },
+      {
+        "username": "Produktion",
+        "password": "Produktion",
+        "permissions": [
+          "Administration",
+          "Inbetriebnahme",
+          "Funktionstest Manuell",
+          "Dauerlauftest Manuell"
+        ]
+      }
+    ],
+    "language": "gb",
+    "languages": [
+      "de",
+      "gb",
+      "ro",
+      "cz",
+      "ru"
+    ],
+    "page": "Initialisierung",
+    "pages": [
+      {
+        "name": "Initialisierung",
+        "active": true,
+        "state": "ready",
+        "autorun": true
+      },
+      {
+        "name": "Funktionstest",
+        "active": true,
+        "state": "ready",
+        "autorun": false
+      },
+      {
+        "name": "Dauerlauf",
+        "active": true,
+        "state": "ready",
+        "autorun": true
+      },
+      {
+        "name": "Abschluss",
+        "active": true,
+        "state": "ready",
+        "autorun": true
+      }
+    ]
   },
   "sharepoint": {
     "intranet": "https://graph.microsoft.com/beta/ibs296.sharepoint.com",
-    "administrationpath" : "Organisation",
+    "administrationpath": "Organisation",
     "product_overview": "https://ibs296.sharepoint.com/:u:/g/EatFNR2aOc1NvIfWZMBh-oEBr6DRVo85gRaHcIBQutTPGg?e=iNxdpV",
     "project_overview": ""
+  },
+  "hardware": {
+    "serialports": [],
+    "stlinks": {},
+    "pickits": {}
   }
 }

@@ -30,7 +30,11 @@
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>eurosonicapp</title>
-
+  <script>
+    window.flutterConfiguration = {
+      canvasKitBaseUrl: "/canvaskit/"
+    };
+  </script>
   <link rel="manifest" href="manifest.json">
   <!-- MSAL.js -->
   <script 
@@ -46,7 +50,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = "1809640446";
+    const serviceWorkerVersion = "281354370";
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
