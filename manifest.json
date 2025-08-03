@@ -1,6 +1,6 @@
 {
-    "name": "eurosonicapp",
-    "short_name": "eurosonicapp",
+    "name": "eurosonictestlab",
+    "short_name": "eurosonictestlab",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

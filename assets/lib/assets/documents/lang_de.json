@@ -1,3 +1,7 @@
 {
-  "_id": "lang_de"
+  "_id": "lang_de",
+  "UNTERNEHMEN_1": "Unternehmen Zeile 1",
+  "UNTERNEHMEN_2": "Unternehmen Zeile 2",
+  "productname": "Produktname",
+  "serialnumber": "Seriennummer"
 }

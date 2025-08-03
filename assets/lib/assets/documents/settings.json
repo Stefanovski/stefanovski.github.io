@@ -6,9 +6,9 @@
     "autorun": true,
     "ip_local": "127.0.0.1",
     "ip_remote": "127.0.0.1",
-    "ip_server": "192.168.200.1",
+    "ip_server": "10.1.100.46",
     "ip_printer": "10.1.100.212",
-    "ip_couchdb": "https://85.214.133.206:6984",
+    "ip_couchdb": "http://85.214.133.206:5984",
     "authorization": "Basic YWRtaW46WyNhZG1pbiNDaVRBeHVqMF0=",
     "user": {},
     "users": [
@@ -30,7 +30,7 @@
         ]
       }
     ],
-    "language": "gb",
+    "language": "de",
     "languages": [
       "de",
       "gb",
@@ -44,25 +44,29 @@
         "name": "Initialisierung",
         "active": true,
         "state": "ready",
-        "autorun": true
+        "autorun": true,
+        "autopagenext": false
       },
       {
         "name": "Funktionstest",
         "active": true,
         "state": "ready",
-        "autorun": false
-      },
+        "autorun": true,
+        "autopagenext": false
+       },
       {
         "name": "Dauerlauf",
         "active": true,
         "state": "ready",
-        "autorun": true
+        "autorun": true,
+        "autopagenext": false
       },
       {
         "name": "Abschluss",
         "active": true,
         "state": "ready",
-        "autorun": true
+        "autorun": false,
+        "autopagenext": false
       }
     ]
   },
@@ -75,6 +79,20 @@
   "hardware": {
     "serialports": [],
     "stlinks": {},
-    "pickits": {}
+    "pickits": {},
+    "scopes": {},
+    "supplies": {}
+  },
+  "product": {
+  },
+  "scopedata": {
+    "startfrequency": 19000,
+    "endfrequency": 21000,
+    "sweeptime": 3.0,
+    "serialresonancy": 0,
+    "parallelresonancy": 0,
+    "first": -1,
+    "min": {"x": 0, "y": 127},
+    "max": {"x": 0, "y": -127}
   }
 }
